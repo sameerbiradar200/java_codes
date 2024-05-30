@@ -7,7 +7,6 @@ public class FindNum {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5,6,7,8,9};
         boolean found = false;
-        System.out.println("given array is :");
         System.out.println(Arrays.toString(arr));
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter an number to check !: ");
