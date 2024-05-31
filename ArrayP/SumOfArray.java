@@ -14,3 +14,10 @@ public class SumOfArray {
 
     }
 }
+// for alternate numbers
+/*
+* for(int i : arr ){
+            if(i % 2 == 1){     //  i % 2 == 0 if
+            sum += i;
+            System.out.println("adding sum with "+ i+" is "+ sum );}
+        }*/
