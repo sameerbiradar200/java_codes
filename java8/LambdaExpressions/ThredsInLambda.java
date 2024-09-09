@@ -7,7 +7,7 @@ public class ThredsInLambda {
             Thread.currentThread().setName("sameer");
             System.out.println(Thread.currentThread().getName()+" is running");
 
-            long number = 2; // Start from the first prime number
+            long number = 2; 
             while (true) {
                 if (isPrime(number)) {
                     System.out.println(number + " is a prime number");
@@ -25,10 +25,9 @@ public class ThredsInLambda {
     }
     public static boolean isPrime(long num) {
         if (num <= 1) return false;
-        if (num == 2 || num == 3) return true; // 2 and 3 are prime numbers
-        if (num % 2 == 0 || num % 3 == 0) return false; // Eliminate multiples of 2 and 3
-
-        // Check for factors starting from 5
+        if (num == 2 || num == 3) return true; 
+        if (num % 2 == 0 || num % 3 == 0) return false; 
+   
         for (long i = 5; i * i <= num; i += 6) {
             if (num % i == 0 || num % (i + 2) == 0) {
                 return false;
