@@ -2,6 +2,9 @@ package org.example.jan22;
 
 import java.util.*;
 
+//input :  1#S45%KL@9
+//output : 9#LK5%4S@1
+
 
 public class ReverseStringSkippingSpecialChars {
     public static void main(String[] args) {
